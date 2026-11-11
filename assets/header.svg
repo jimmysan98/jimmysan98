@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280" role="img" aria-label="jimmysan98 - Full-Stack Developer">
+  <title>jimmysan98 — Full-Stack Developer</title>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="55%" stop-color="#111524"/>
+      <stop offset="100%" stop-color="#1A1026"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B9D" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#A78BFA" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="52%" stop-color="#FFB3CC"/>
+      <stop offset="100%" stop-color="#7DD3FC"/>
+    </linearGradient>
+
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B9D" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#FF6B9D"/>
+      <stop offset="60%" stop-color="#A78BFA"/>
+      <stop offset="85%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="pinkGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6B9D" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#E11D48" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="blueGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.24"/>
+      <stop offset="60%" stop-color="#6366F1" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#30363D" opacity="0.55"/>
+    </pattern>
+
+    <clipPath id="cardClip">
+      <rect x="2" y="2" width="896" height="276" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <!-- Main Card -->
+  <g clip-path="url(#cardClip)">
+    <rect x="2" y="2" width="896" height="276" rx="20" fill="url(#bgGrad)"/>
+    <rect x="2" y="2" width="896" height="276" fill="url(#dotGrid)"/>
+
+    <!-- Ambient Glows -->
+    <circle cx="740" cy="70" r="210" fill="url(#pinkGlow)">
+      <animate attributeName="r" values="200;225;200" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="240" r="190" fill="url(#blueGlow)">
+      <animate attributeName="r" values="180;205;180" dur="9s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Decorative Constellation & Code Rings (Right Side) -->
+    <g transform="translate(740, 132)" opacity="0.9">
+      <circle cx="0" cy="0" r="82" fill="none" stroke="#30363D" stroke-width="1" stroke-dasharray="4 6">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="38s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="56" fill="none" stroke="#FF6B9D" stroke-width="1" stroke-opacity="0.35" stroke-dasharray="18 10">
+        <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="24s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="32" fill="#161B22" stroke="#38BDF8" stroke-width="1.2" stroke-opacity="0.5"/>
+      <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="16" font-weight="700" fill="#FF6B9D">&lt;/&gt;</text>
+
+      <!-- Twin Blue Stars (nod to avatar hairpins) -->
+      <g transform="translate(-48, -48)">
+        <path d="M0,-11 L2.8,-3.5 L10.5,-3.5 L4.2,1.2 L6.5,8.8 L0,4.2 L-6.5,8.8 L-4.2,1.2 L-10.5,-3.5 L-2.8,-3.5 Z" fill="#38BDF8" opacity="0.9">
+          <animate attributeName="opacity" values="0.95;0.4;0.95" dur="3.2s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <g transform="translate(-68, -22) scale(0.68)">
+        <path d="M0,-11 L2.8,-3.5 L10.5,-3.5 L4.2,1.2 L6.5,8.8 L0,4.2 L-6.5,8.8 L-4.2,1.2 L-10.5,-3.5 L-2.8,-3.5 Z" fill="#60A5FA" opacity="0.85">
+          <animate attributeName="opacity" values="0.45;1;0.45" dur="2.6s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <!-- Pink 4-point Sparkles -->
+      <path d="M62,-42 Q62,-32 72,-32 Q62,-32 62,-22 Q62,-32 52,-32 Q62,-32 62,-42 Z" fill="#FF6B9D">
+        <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M48,48 Q48,55 55,55 Q48,55 48,62 Q48,55 41,55 Q48,55 48,48 Z" fill="#F43F5E">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="3.6s" repeatCount="indefinite"/>
+      </path>
+      <circle cx="-62" cy="46" r="2.5" fill="#A78BFA">
+        <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Top Status Pill -->
+    <g transform="translate(46, 36)">
+      <rect x="0" y="0" width="286" height="28" rx="14" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <circle cx="16" cy="14" r="4" fill="#3FB950">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="28" y="18.5" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11.5" font-weight="600" fill="#C9D1D9" letter-spacing="0.8">FULL-STACK DEV  ·  DARK MODE 🌙</text>
+    </g>
+
+    <!-- Main Hero Name -->
+    <text x="46" y="132" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="58" font-weight="800" fill="url(#titleGrad)" letter-spacing="-1">jimmysan98</text>
+
+    <!-- Glowing Underline -->
+    <rect x="46" y="148" width="240" height="3" rx="1.5" fill="url(#accentLine)"/>
+
+    <!-- Subtitle -->
+    <text x="46" y="182" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="17" font-weight="500" fill="#9CA3AF">
+      Building scalable web apps with <tspan fill="#F0F6FC" font-weight="600">Python</tspan> &amp; <tspan fill="#F0F6FC" font-weight="600">JavaScript</tspan> · Learning <tspan fill="#FF6B9D" font-weight="600">Rust 🦀</tspan>
+    </text>
+
+    <!-- Bottom Tech Pills -->
+    <g transform="translate(46, 208)" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" font-weight="600">
+      <rect x="0" y="0" width="94" height="30" rx="8" fill="#161B22" stroke="#30363D"/>
+      <circle cx="15" cy="15" r="4" fill="#3776AB"/>
+      <text x="26" y="19" fill="#E6EDF3">Python</text>
+
+      <rect x="104" y="0" width="116" height="30" rx="8" fill="#161B22" stroke="#30363D"/>
+      <circle cx="119" cy="15" r="4" fill="#F7DF1E"/>
+      <text x="130" y="19" fill="#E6EDF3">JavaScript</text>
+
+      <rect x="230" y="0" width="88" height="30" rx="8" fill="#161B22" stroke="#30363D"/>
+      <circle cx="245" cy="15" r="4" fill="#F74C00"/>
+      <text x="256" y="19" fill="#E6EDF3">Rust 🦀</text>
+
+      <rect x="328" y="0" width="100" height="30" rx="8" fill="#161B22" stroke="#30363D"/>
+      <circle cx="343" cy="15" r="4" fill="#38BDF8"/>
+      <text x="354" y="19" fill="#E6EDF3">VS Code</text>
+
+      <rect x="438" y="0" width="212" height="30" rx="8" fill="#161B22" stroke="#FF6B9D" stroke-opacity="0.45"/>
+      <circle cx="453" cy="15" r="4" fill="#FF6B9D"/>
+      <text x="464" y="19" fill="#FFB3CC">DeepSeek + Antigravity</text>
+    </g>
+
+    <!-- Bottom Shimmer Accent -->
+    <rect x="0" y="275" width="900" height="3" fill="url(#accentLine)" opacity="0.65"/>
+  </g>
+
+  <!-- Outer Neon Hairline Border -->
+  <rect x="2" y="2" width="896" height="276" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 306" width="900" height="306" role="img" aria-label="Developer Profile Code Card">
+  <title>developer.py — jimmysan98 in VS Code</title>
+  <defs>
+    <linearGradient id="tabHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B9D"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <clipPath id="termClip">
+      <rect x="1" y="1" width="898" height="304" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#termClip)">
+    <!-- Editor Body -->
+    <rect x="1" y="1" width="898" height="304" rx="14" fill="#0B0F17"/>
+
+    <!-- Top Title / Tabs Bar -->
+    <rect x="1" y="1" width="898" height="38" fill="#161B22"/>
+    <line x1="1" y1="39" x2="899" y2="39" stroke="#30363D" stroke-width="1"/>
+
+    <!-- Window Controls -->
+    <circle cx="24" cy="20" r="6" fill="#FF5F56"/>
+    <circle cx="44" cy="20" r="6" fill="#FFBD2E"/>
+    <circle cx="64" cy="20" r="6" fill="#27C93F"/>
+
+    <!-- Active Tab -->
+    <rect x="92" y="1" width="168" height="38" fill="#0B0F17"/>
+    <rect x="92" y="1" width="168" height="2.5" fill="url(#tabHighlight)"/>
+    <text x="112" y="24" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12.5" font-weight="600" fill="#F0F6FC">🐍 developer.py</text>
+
+    <!-- Inactive Tabs -->
+    <text x="282" y="24" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#6E7681">🦀 Cargo.toml</text>
+    <text x="396" y="24" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#6E7681">🤖 ai_setup.md</text>
+
+    <!-- Right IDE Label -->
+    <text x="876" y="24" text-anchor="end" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11.5" fill="#8B949E">VS Code · Dark Modern</text>
+
+    <!-- Line Numbers -->
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="13.5" fill="#484F58" text-anchor="end">
+      <text x="42" y="70">01</text>
+      <text x="42" y="94">02</text>
+      <text x="42" y="118">03</text>
+      <text x="42" y="142">04</text>
+      <text x="42" y="166">05</text>
+      <text x="42" y="190">06</text>
+      <text x="42" y="214">07</text>
+      <text x="42" y="238">08</text>
+      <text x="42" y="262">09</text>
+    </g>
+
+    <!-- Subtle Active Line Highlight on Line 06 -->
+    <rect x="54" y="174" width="844" height="22" fill="#161B22" opacity="0.55"/>
+
+    <!-- Code Content (using xml:space="preserve" + tspan for exact spacing) -->
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="13.5">
+      <text x="66" y="70" xml:space="preserve"><tspan fill="#FF6B9D">class</tspan><tspan fill="#F0F6FC"> </tspan><tspan fill="#38BDF8" font-weight="700">Developer</tspan><tspan fill="#8B949E">:</tspan></text>
+      <text x="66" y="94" xml:space="preserve"><tspan fill="#C9D1D9">    handle   </tspan><tspan fill="#FF6B9D">=</tspan><tspan fill="#A5D6FF"> "jimmysan98"</tspan></text>
+      <text x="66" y="118" xml:space="preserve"><tspan fill="#C9D1D9">    role     </tspan><tspan fill="#FF6B9D">=</tspan><tspan fill="#A5D6FF"> "Full-Stack Developer"</tspan></text>
+      <text x="66" y="142" xml:space="preserve"><tspan fill="#C9D1D9">    backend  </tspan><tspan fill="#FF6B9D">=</tspan><tspan fill="#8B949E"> [</tspan><tspan fill="#A5D6FF">"Python"</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#A5D6FF">"FastAPI"</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#A5D6FF">"Django"</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#A5D6FF">"PostgreSQL"</tspan><tspan fill="#8B949E">]</tspan></text>
+      <text x="66" y="166" xml:space="preserve"><tspan fill="#C9D1D9">    frontend </tspan><tspan fill="#FF6B9D">=</tspan><tspan fill="#8B949E"> [</tspan><tspan fill="#A5D6FF">"JavaScript"</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#A5D6FF">"HTML5"</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#A5D6FF">"CSS3"</tspan><tspan fill="#8B949E">]</tspan></text>
+      <text x="66" y="190" xml:space="preserve"><tspan fill="#C9D1D9">    learning </tspan><tspan fill="#FF6B9D">=</tspan><tspan fill="#A5D6FF"> "Rust 🦀"</tspan><tspan fill="#6E7681">  # ownership, CLI tools &amp; systems</tspan></text>
+      <text x="66" y="214" xml:space="preserve"><tspan fill="#C9D1D9">    editor   </tspan><tspan fill="#FF6B9D">=</tspan><tspan fill="#A5D6FF"> "VS Code 🖥️"</tspan></text>
+      <text x="66" y="238" xml:space="preserve"><tspan fill="#C9D1D9">    ai_tools </tspan><tspan fill="#FF6B9D">=</tspan><tspan fill="#8B949E"> [</tspan><tspan fill="#A5D6FF">"DeepSeek 🤖"</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#A5D6FF">"Antigravity ✨"</tspan><tspan fill="#8B949E">]</tspan></text>
+      <text x="66" y="262" xml:space="preserve"><tspan fill="#C9D1D9">    vibe     </tspan><tspan fill="#FF6B9D">=</tspan><tspan fill="#A5D6FF"> "dark mode only 🌙"</tspan><tspan fill="#FF6B9D" font-weight="700"> |</tspan></text>
+    </g>
+
+    <!-- Blinking Cursor Pill on Status/Prompt -->
+    <circle cx="868" cy="257" r="4" fill="#3FB950">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Bottom VS Code Status Bar -->
+    <rect x="1" y="277" width="898" height="28" fill="#161B22"/>
+    <line x1="1" y1="277" x2="899" y2="277" stroke="#30363D" stroke-width="1"/>
+    <rect x="1" y="277" width="86" height="28" fill="#FF6B9D"/>
+    <text x="44" y="295" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11.5" font-weight="700" fill="#0D1117">⎇ main</text>
+
+    <text x="104" y="295" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11.5" fill="#8B949E">✓ 0 problems   ·   🐍 Python 3.12   ·   🦀 cargo check</text>
+    <text x="876" y="295" text-anchor="end" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11.5" fill="#38BDF8">🤖 DeepSeek + ✨ Antigravity</text>
+  </g>
+
+  <rect x="1" y="1" width="898" height="304" rx="14" fill="none" stroke="#30363D" stroke-width="1.5"/>
+</svg>

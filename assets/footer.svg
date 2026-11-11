@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 105" width="900" height="105" role="img" aria-label="Dark mode footer">
+  <defs>
+    <linearGradient id="waveFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#120E1D"/>
+      <stop offset="50%" stop-color="#1A1128"/>
+      <stop offset="100%" stop-color="#0D1626"/>
+    </linearGradient>
+    <linearGradient id="waveStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B9D" stop-opacity="0.1"/>
+      <stop offset="30%" stop-color="#FF6B9D" stop-opacity="0.8"/>
+      <stop offset="55%" stop-color="#A78BFA" stop-opacity="0.8"/>
+      <stop offset="80%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M0,36 C180,8 320,56 480,32 C640,8 760,48 900,24 L900,105 L0,105 Z" fill="url(#waveFill)"/>
+  <path d="M0,36 C180,8 320,56 480,32 C640,8 760,48 900,24" fill="none" stroke="url(#waveStroke)" stroke-width="2"/>
+
+  <!-- Twinkling Stars -->
+  <circle cx="140" cy="64" r="1.8" fill="#FF6B9D">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="760" cy="62" r="2" fill="#38BDF8">
+    <animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="450" y="72" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12.5" fill="#C9D1D9">
+    🌙 Dark Mode Only  ·  <tspan fill="#FF6B9D">Python</tspan> • <tspan fill="#F7DF1E">JS</tspan> • <tspan fill="#F74C00">Rust 🦀</tspan>  ·  <tspan fill="#38BDF8">VS Code</tspan> + DeepSeek + Antigravity
+  </text>
+</svg>
